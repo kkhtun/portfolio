@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import Facebook from "../../images/social/facebook.png";
-import Github from "../../images/social/github-sign.png";
+import Github from "../../images/social/github.png";
 import Gmail from "../../images/social/gmail.png";
 import Linkedin from "../../images/social/linkedin.png";
 import Instagram from "../../images/social/instagram.png";
@@ -55,7 +55,9 @@ const Footer = () => {
                     (and of course React!)
                 </p>
                 <div className="resume">
-                    <a href="#">Download My Resume PDF</a>
+                    <a href="https://github.com/kkhtun/portfolio/blob/main/resume.pdf">
+                        Download My Resume PDF
+                    </a>
                 </div>
             </div>
         </footer>

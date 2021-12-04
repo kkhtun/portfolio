@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Slider.css";
+import nextIcon from "../../images/experience/next.png";
 const Slider = ({ slideData, SlideComponent }) => {
     const [index, setIndex] = useState(0);
     const delay = 5000;
@@ -36,6 +37,27 @@ const Slider = ({ slideData, SlideComponent }) => {
                     </div>
                 ))}
             </div>
+
+            <span
+                className="prev-slide"
+                onClick={() =>
+                    setIndex((prevIndex) =>
+                        prevIndex === 0 ? slideData.length - 1 : prevIndex - 1
+                    )
+                }
+            >
+                <img src={nextIcon} alt="prev slide" />
+            </span>
+            <span
+                className="next-slide"
+                onClick={() =>
+                    setIndex((prevIndex) =>
+                        prevIndex === slideData.length - 1 ? 0 : prevIndex + 1
+                    )
+                }
+            >
+                <img src={nextIcon} alt="next slide" />
+            </span>
 
             <div className="slide-dots">
                 {slideData.map((_, idx) => (
