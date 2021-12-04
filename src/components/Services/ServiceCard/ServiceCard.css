@@ -1,0 +1,22 @@
+.service-card {
+    border: 1px solid #e4e4e4;
+    border-radius: 10px;
+    padding: 5px 20px;
+    transition: 0.2s ease;
+}
+
+.service-card h3 {
+    color: red;
+    text-transform: uppercase;
+}
+
+.service-card img {
+    display: block;
+    margin: 10px auto;
+    height: 150px;
+}
+
+.service-card:hover,
+.service-card:focus {
+    transform: scale(0.95);
+}

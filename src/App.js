@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import Landing from "./components/Landing/Landing";
+import Navbar from "./components/Navbar/Navbar";
+import Projects from "./components/Projects/Projects";
+import Footer from "./components/Footer/Footer";
+import Skills from "./components/Skills/Skills";
+import Services from "./components/Services/Services";
+import { useState } from "react";
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [page, setPage] = useState("projects");
+    const RenderPage = () => {
+        if (page === "projects") {
+            return <Projects />;
+        } else if (page === "skills") {
+            return <Skills />;
+        } else if (page === "services") {
+            return <Services />;
+        }
+    };
+    return (
+        <div className="App">
+            <Landing />
+            <Navbar page={page} setPage={setPage} />
+            <RenderPage />
+            <Footer />
+        </div>
+    );
 }
 
 export default App;

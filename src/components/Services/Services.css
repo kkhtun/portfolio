@@ -1,0 +1,26 @@
+.services h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 50px;
+}
+
+.service-wrapper {
+    margin: 0 60px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+}
+
+@media screen and (max-width: 800px) {
+    .service-wrapper {
+        margin: 0 30px;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .service-wrapper {
+        margin: 0 10px;
+        grid-template-columns: auto;
+    }
+}
