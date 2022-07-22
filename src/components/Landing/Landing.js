@@ -11,10 +11,11 @@ const Landing = () => {
                     Welcome to my portfolio! I'm an IT student currently
                     self-learning in software engineering skills, seeking
                     real-world experience as a software engineer. My current
-                    focus is on backend development using PHP/Laravel and API
-                    development. I also have experience developing frontend
-                    applications with React environment. I am also eager to
-                    tackle development in other languages.
+                    focus is on backend development using NodeJS and related
+                    technologies focusing on API and service-oriented
+                    architectures. I also have experience developing frontend
+                    applications with React and Angular environments. I am eager
+                    to tackle challenges in other languages and areas.
                 </p>
             </div>
         </section>
