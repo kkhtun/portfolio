@@ -1,10 +1,10 @@
 import React from "react";
 import "./Footer.css";
-import Facebook from "../../images/social/facebook.png";
+import DevTo from "../../images/social/dev.png";
 import Github from "../../images/social/github.png";
 import Gmail from "../../images/social/gmail.png";
 import Linkedin from "../../images/social/linkedin.png";
-import Instagram from "../../images/social/instagram.png";
+import GitLab from "../../images/social/gitlab.png";
 
 const Footer = () => {
     return (
@@ -13,11 +13,18 @@ const Footer = () => {
                 <h2>Contact Me On</h2>
                 <div className="social">
                     <a
-                        href="https://www.facebook.com/khaingkhant.htun/"
+                        href="https://www.linkedin.com/in/khaing-khant-htun-880898148"
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <img src={Facebook} alt="facebook link" />
+                        <img src={Linkedin} alt="linkedin link" />
+                    </a>
+                    <a
+                        href="https://dev.to/kevin_htun"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <img src={DevTo} alt="dev.to link" />
                     </a>
                     <a
                         href="https://github.com/kkhtun"
@@ -27,11 +34,11 @@ const Footer = () => {
                         <img src={Github} alt="github link" />
                     </a>
                     <a
-                        href="https://www.linkedin.com/in/khaing-khant-htun-880898148"
+                        href="https://gitlab.com/khaingkhanthtun"
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <img src={Linkedin} alt="linkedin link" />
+                        <img src={GitLab} alt="gitlab link" />
                     </a>
                     <a
                         href="mailto:khaingkhanthtun@gmail.com"
@@ -40,13 +47,6 @@ const Footer = () => {
                         title="khaingkhanthtun@gmail.com"
                     >
                         <img src={Gmail} alt="gmail link" />
-                    </a>
-                    <a
-                        href="https://www.instagram.com/khaingkhanthtun/"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <img src={Instagram} alt="instagram link" />
                     </a>
                 </div>
                 <p>
