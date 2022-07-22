@@ -7,6 +7,10 @@ import PHP from "../images/skills/php-code.png";
 import Laravel from "../images/skills/laravel-icon.png";
 import Python from "../images/skills/python.png";
 import Wordpress from "../images/skills/wordpress.png";
+import NodeJS from "../images/skills/node-js.png";
+import Angular from "../images/skills/angular.png";
+import MongoDB from "../images/skills/mongodb.webp";
+import SQL from "../images/skills/sql-server.png";
 
 const skills = [
     {
@@ -53,6 +57,26 @@ const skills = [
         id: 9,
         image: Wordpress,
         title: "Wordpress",
+    },
+    {
+        id: 10,
+        image: NodeJS,
+        title: "NodeJS",
+    },
+    {
+        id: 11,
+        image: Angular,
+        title: "Angular",
+    },
+    {
+        id: 12,
+        image: MongoDB,
+        title: "MongoDB",
+    },
+    {
+        id: 12,
+        image: SQL,
+        title: "MySQL",
     },
 ];
 

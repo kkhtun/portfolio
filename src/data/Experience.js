@@ -1,9 +1,9 @@
 const experiences = [
     {
         id: 1,
-        title: "Wordpress Setup and Management",
-        desc: "Setting up and managing wordpress CMS sites for school, organizations and other small businesses, and also managing domains. I also occasionally help out my friends and acquaintances' businesses in setting up and troubleshooting CMS.",
-        duration: "(June 2021 - Present)",
+        title: "Junior Software Engineer at MyanCare",
+        desc: "I completed an internship at MyanCare Telemedicine Co Ltd. and now currently working full-time as a software enginner role for the company, taking on technologies such as NodeJS, Angular, Dependency Management, Job Scheduling and many more.",
+        duration: "(December 2021 - Present)",
     },
     {
         id: 2,
@@ -13,6 +13,12 @@ const experiences = [
     },
     {
         id: 3,
+        title: "Wordpress Setup and Management",
+        desc: "Setting up and managing wordpress CMS sites for school, organizations and other small businesses, and also managing domains. I also occasionally help out my friends and acquaintances' businesses in setting up and troubleshooting CMS.",
+        duration: "(June 2021 - Present)",
+    },
+    {
+        id: 4,
         title: "Date Annotation",
         desc: "I took part in a data annotation project acquired from my friend using supervisely to annoatate and classify images.",
         duration: "(September 2021)",
