@@ -1,9 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
+import * as R from "ramda";
 import "./Slider.css";
 import nextIcon from "../../images/experience/next.png";
 const Slider = ({ slideData, SlideComponent }) => {
     const [index, setIndex] = useState(0);
-    const delay = 5000;
+    const delay = 7000;
     const timeoutRef = useRef(null);
     const resetTimeout = () => {
         if (timeoutRef.current) {
@@ -31,7 +32,7 @@ const Slider = ({ slideData, SlideComponent }) => {
                 className="slide-container"
                 style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
             >
-                {slideData.map((item) => (
+                {R.reverse(slideData).map((item) => (
                     <div key={item.id} className="slide">
                         <SlideComponent data={item} />
                     </div>

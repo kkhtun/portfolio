@@ -1,6 +1,6 @@
 import covidImg from "../images/covid-19.png";
-import commercejs from "../images/react-commerce.png";
-import ghibli from "../images/ghibli.png";
+import coffeeChat from "../images/coffee-chat.ico";
+import coffeeChess from "../images/coffee-chess.ico";
 import comic from "../images/comic.png";
 
 const liveProjects = [
@@ -20,17 +20,17 @@ const liveProjects = [
     },
     {
         id: 3,
-        title: "Commerce JS Project",
-        desc: "Prototype e-commerce store built with frontend using React, Redux, Material UI and backend using headless CommerceJS and Stripe.",
-        image: commercejs,
-        project_url: "https://commercejs-react-redux.netlify.app",
+        title: "Coffee Chat",
+        desc: "Real-time group chat application using SocketIO",
+        image: coffeeChat,
+        project_url: "https://coffee-chat-dev.netlify.app",
     },
     {
         id: 4,
-        title: "Ghibli Studio Dashboard",
-        desc: "Just a mock project for a dashboard of characters in Ghibli Studio world using Ghibli Studio API and React.js.",
-        image: ghibli,
-        project_url: "https://ghibli-studio-api-kkhtun.netlify.app",
+        title: "Coffee Chess",
+        desc: "Real-time chess matches using SocketIO, Firebase Auth, ExpressJS and React",
+        image: coffeeChess,
+        project_url: "https://chess-dev-b17d1.web.app/",
     },
 ];
 

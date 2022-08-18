@@ -8,14 +8,13 @@ const Landing = () => {
                 <img src={profile} alt="profile" />
                 <h1 className="landing-welcome">Khaing Khant Htun</h1>
                 <p className="landing-description">
-                    Welcome to my portfolio! I'm an IT student currently
-                    self-learning in software engineering skills, seeking
-                    real-world experience as a software engineer. My current
-                    focus is on backend development using NodeJS and related
-                    technologies focusing on API and service-oriented
-                    architectures. I also have experience developing frontend
-                    applications with React and Angular environments. I am eager
-                    to tackle challenges in other languages and areas.
+                    Hello, I'm a software developer/student from Myanmar. I am
+                    interested in science and technology. I'm trying to improve
+                    my skills in computer science and software engineering. I'm
+                    also an enthusiast of other sciences, physics and anything
+                    technology-related. I hope to be an advocate in tech one
+                    day. Currently, I'm pursuing my studies in many related
+                    fields. Nice to meet you.
                 </p>
             </div>
         </section>

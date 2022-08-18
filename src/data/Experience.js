@@ -13,9 +13,9 @@ const experiences = [
     },
     {
         id: 3,
-        title: "Wordpress Setup and Management",
-        desc: "Setting up and managing wordpress CMS sites for school, organizations and other small businesses, and also managing domains. I also occasionally help out my friends and acquaintances' businesses in setting up and troubleshooting CMS.",
-        duration: "(June 2021 - Present)",
+        title: "Freelance Developer",
+        desc: "Setting up and managing websites and wordpress CMS sites for school, organizations and other small businesses, and also managing domains. I also occasionally help out my friends and acquaintances' businesses in setting up and troubleshooting websites tackling areas such as PHP, Laravel, Wordpress, Moodle.",
+        duration: "(June 2021 - Dec 2021)",
     },
     {
         id: 4,

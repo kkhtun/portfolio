@@ -4,7 +4,7 @@ import SkillCard from "./SkillCard/SkillCard";
 import skills from "../../data/Skills";
 import experiences from "../../data/Experience";
 import ExperienceCard from "./ExperienceCard/ExperienceCard";
-import EducationCard from "./EducationCard/EducationCard";
+// import EducationCard from "./EducationCard/EducationCard";
 
 const Skills = () => {
     return (
@@ -21,10 +21,10 @@ const Skills = () => {
                     <SkillCard key={skill.id} skill={skill} />
                 ))}
             </div>
-            <h2>My pursuit in education...</h2>
+            {/* <h2>My pursuit in education...</h2>
             <div className="education-wrapper">
                 <EducationCard />
-            </div>
+            </div> */}
         </section>
     );
 };
