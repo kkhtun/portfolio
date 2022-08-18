@@ -55,7 +55,11 @@ const Footer = () => {
                     (and of course React!)
                 </p>
                 <div className="resume">
-                    <a href="https://github.com/kkhtun/portfolio/blob/main/resume.pdf">
+                    <a
+                        target="_blank"
+                        rel="noreferrer"
+                        href="https://github.com/kkhtun/portfolio/raw/main/resume.pdf"
+                    >
                         Download My Resume PDF
                     </a>
                 </div>
