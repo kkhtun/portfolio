@@ -8,7 +8,7 @@ const Landing = () => {
                 <img src={profile} alt="profile" />
                 <h1 className="landing-welcome">Khaing Khant Htun</h1>
                 <p className="landing-description">
-                    Hello, I'm a software developer/student from Myanmar. I am
+                    Hello, I'm a software engineer/student from Myanmar. I am
                     interested in science and technology. I'm trying to improve
                     my skills in computer science and software engineering. I'm
                     also an enthusiast of other sciences, physics and anything
